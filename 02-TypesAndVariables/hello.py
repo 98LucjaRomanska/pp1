@@ -1,7 +1,9 @@
-x = 5
-print(x)
-print(type(x))
-
+"""
+first = '100'
+second = 3
+print(first*second)
+"""
+#\n at the end of the prompt represents a newline
 
 #Excercise 2
 name = input('Enter your name\n')
@@ -12,20 +14,20 @@ x = input("Enter hours:\n")
 hour= input(x)
 y= input("Enter rate:\n")
 rate = input(y)
-int(hour)
-int(rate)
-print(int(hour))
-
-rate = input("Enter Rate:\n")
-print(type(rate))
-pay = hour * rate 
-print("That's your pay: " + pay )
+#int(hour)
+#int(rate)
+#print(int(hour))
+#rate = input("Enter Rate:\n")
+#print(int(rate))
+#pay = hour * rate 
+#print("That's your pay: " + pay )
 
 #Exercise 4
+
 width = 17
 height = 12.0
+print(width)
 print(type(width))
-print(type(height))
 
 print(height)
 print(type(height))
