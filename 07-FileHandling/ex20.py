@@ -1,0 +1,12 @@
+f = open('MeatAndFish.txt','r')
+g = open('GrainsAndBread.txt','r')
+d = open('allproducts.txt','w')
+d.write(f.read())
+
+d.write(g.read())
+f.close()
+g.close()
+d.close()
+d = open('allproducts.txt','r')
+d.read()
+d.close()
